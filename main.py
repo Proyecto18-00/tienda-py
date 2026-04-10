@@ -1,6 +1,7 @@
 import productos
 import pedidos
 import historial
+import webbrowser
 
 while True:
     print("\n--- TIENDA ---")
@@ -9,6 +10,7 @@ while True:
     print("3. Ver pedido")
     print("4. Ver historial")
     print("5. Salir")
+    print("6. Ver repositorio en GitHub") 
 
     opcion = input("Seleccione una opción: ")
 
@@ -37,6 +39,11 @@ while True:
     elif opcion == "5":
         print("Gracias por usar la tienda")
         break
+    
+    
+    elif opcion == "6":
+     print("Abriendo repositorio en GitHub...")
+     webbrowser.open("https://github.com/Proyecto18-00/tienda-py.git")
 
-    else:
-        print("Opción inválida")
+else:
+    print("Opción inválida") 
