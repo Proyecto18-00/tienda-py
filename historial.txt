@@ -1,0 +1,3 @@
+Arroz - Cantidad: 2 - Total: 4000
+Arroz - Cantidad: 1 - Total: 2000
+-----
